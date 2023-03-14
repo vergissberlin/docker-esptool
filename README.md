@@ -32,4 +32,9 @@ This project is licensed under the MIT License.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to me.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to me. 
+
+## Authors
+
+* **Tiryoh** - [Tiryoh](https://github.com/Tiryoh)
+* **Vergissberlin** - *GitHub Images* - [vergissberlin](https://github.com/vergissberlin)
