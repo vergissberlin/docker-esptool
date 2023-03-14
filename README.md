@@ -27,7 +27,7 @@ You have to replace the path to the serial device with the path to your serial d
 To build the image yourself, clone this repository and run the following command:
 
 ```bash
-    docker build -t esptool .
+docker build -t esptool .
 ```
 
 ## License
@@ -40,5 +40,5 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Authors
 
-* **Tiryoh** - [Tiryoh](https://github.com/Tiryoh)
+* **Tiryoh** - *Initial work* [Tiryoh](https://github.com/Tiryoh)
 * **Vergissberlin** - *GitHub Images* - [vergissberlin](https://github.com/vergissberlin)
