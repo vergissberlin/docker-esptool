@@ -11,12 +11,14 @@ You can do this by creating a personal access token and adding it to your `~/.do
 Once you have authenticated, you can use the container image like this:
 
 ```bash
-    docker run --rm -it \
-        -v /dev/ttyUSB0:/dev/ttyUSB0 \
-        -v $(pwd):/workdir \
-        ghcr.io/vergissberlin/esptool \
-        esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 esp32-20191205-v1.12.bin
+docker run --rm -it \
+    -v /dev/ttyUSB0:/dev/ttyUSB0 \
+    -v $(pwd):/workdir \
+    ghcr.io/vergissberlin/esptool \
+    esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 example.bin
 ```
+
+You have to replace the path to the serial device with the path to your serial device. You can find the path to your serial device by running `ls /dev/tty*` on your host system.
 
 ## Building the image
 
