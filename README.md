@@ -1,5 +1,7 @@
 # docker-esptool
 
+[![Docker Image CI](https://github.com/vergissberlin/docker-esptool/actions/workflows/docker-image.yml/badge.svg)](https://github.com/vergissberlin/docker-esptool/actions/workflows/docker-image.yml)
+
 This repository contains a Dockerfile for building a container image that can be used to flash ESP8266 and ESP32 devices using the [esptool](https://github.com/espressif/esptool) utility.
 
 ## Usage
