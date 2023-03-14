@@ -4,6 +4,6 @@ LABEL maintainer="vergissberlin@gmail.com"
 ARG VERSION=3.0
 RUN echo "esptool version:" $VERSION && \
     pip3 install esptool==${VERSION}
-WORKDIR /work
+WORKDIR /workdir
 ENTRYPOINT ["/usr/local/bin/esptool.py"]
 CMD ["--help"]
